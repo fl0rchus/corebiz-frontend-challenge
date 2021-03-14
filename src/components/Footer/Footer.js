@@ -8,17 +8,17 @@ import Vtex from "../../assets/vtex-logo.svg";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-info">
-        <p className="footer-info_title">Localização</p>
+      <div>
+        <p className="footer__title">Localização</p>
         <hr />
-        <p className="footer-info_text">
+        <p className="footer__info">
           Avenida Andrômeda, 2000. Bloco 6 e 8 <br />
           Alphavile SP <br />
           brasil@corebiz.ag <br />
           +55 11 3090 1039
         </p>
       </div>
-      <div className="footer-contact">
+      <div className="footer__contact">
         <FooterContactItem
           text="ENTRE EM CONTATO"
           icon={EmailIcon}
@@ -30,14 +30,14 @@ const Footer = () => {
           alt="Call"
         />
       </div>
-      <div className="footer-logos">
-        <div className="footer-logo-corebiz">
+      <div className="footer__logos">
+        <div className="footer__logos-corebiz">
           <small>Created by</small>
           <a href="#" target="_blank">
             <img src={Corebiz} alt="Corebiz" />
           </a>
         </div>
-        <div className="footer-logo-vtex">
+        <div className="footer__logos-vtex">
           <a href="#" target="_blank">
             <img src={Vtex} alt="VTEX" />
           </a>

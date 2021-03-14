@@ -3,8 +3,8 @@ import ProductsContainer from './ProductsContainer'
 
 const MainContent = () => {
     return (
-        <main>
-            <h2>Mais Vendidos</h2>
+        <main className="main-content">
+            <h2 className="main-content__h2">Mais Vendidos</h2>
             <hr/>
             <ProductsContainer />
         </main>
