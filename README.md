@@ -1,6 +1,6 @@
 # Corebiz AR Prueba técnica
 
-App de ecommerce en base al diseño provisto a través de Figma
+App responsive de ecommerce en base al diseño provisto a través de Figma
 
 ### Primera parte
 
